@@ -4,7 +4,10 @@ pydantic==2.9.2
 starlette==0.50.0
 python-dotenv
 requests
-numpy
-pandas
+
+# IMPORTANT: pin wheels that exist for manylinux
+numpy==1.26.4
+pandas==2.2.3
+
 yfinance
 python-binance
